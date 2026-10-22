@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>AVIS</h1>
+
+    <nav>
+        <a href="index.html">Domů</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+</header>
+<main>
+    <form>
+        <label for="Jmeno">Jméno:</label>
+        <input type="text" id="Jmeno" name="Jmeno" required>
+
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" required>
+
+        <label for="Vek">Věk:</label>
+        <input type="number" id="Vek" name="Vek">
+
+        <input type="password">
+        <input type="date">
+        <input type="color">
+        <input type="range">
+
+        <label for="Tema">Téma</label>
+        <select id="Tema" name="Tema">
+            <option value="dotaz">Dotaz</option>
+            <option value="Spoluprace">spoluprace</option>
+        </select>
+
+        <textarea id="Text" name="Text" rows="6" minlength="10"></textarea>
+
+        <label for="Check">Checkbox:</label>
+        <input type="checkbox" id="Check" name="Check">
+        <input type="radio">
+
+        <button type="submit">Odeslat</button>
+    </form>
+
+
+</main>
+</body>
+</html>
